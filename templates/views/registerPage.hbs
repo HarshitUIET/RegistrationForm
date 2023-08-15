@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Sign in Section</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="signup">
+            <h1>Register</h1>
+             <h4>It's free and only take a minute</h4>
+             <form action="/register" method="POST">
+                <label>First Name</label>
+                <input type="text" name="firstName" required>
+                <label>Last Name</label>
+                <input type="text" name="lastName" required>
+                <label>Gender</label>
+                <input type="text" name="gender" required>
+                <label>Contact Number</label>
+                <input type="tel" name="contact" required>
+                <label>Email</label>
+                <input type="email" name="email" required>
+                <label>Password</label>
+                <input type="password" name="password" required>
+                <label>Confirm Password</label>
+                <input type="password" name="cpassword" required>
+                <input type="submit" name="" required>
+             </form>
+             <p>
+                By clicking the Submit button, you agree to our<br>
+                <a href="http://127.0.0.1:5500/terms&condition/terms.html">Terms and Condition</a>and<a href="http://127.0.0.1:5500/privacy/privacy.html">Privacy Policy</a>
+             </p>
+             
+        </div>
+    </body>
+</html>

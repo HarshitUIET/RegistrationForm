@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    body {
+      font-family:'Times New Roman', Times, serif;
+      background: aliceblue 20%;
+    }
+    
+    .newpass {
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0.625rem 0.625rem 0.313px rgba(182, 180, 180, 0.274) ;
+      width: 30rem;
+      margin-left: 25rem;
+      margin-top: 14rem;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #4e4caf;
+      color: #d1cfcf;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      width: 100%;
+    }
+    #countdown {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
+      font-family: sans-serif;
+    }
+   #otp,
+    #verifyotp {
+      display: block;
+      margin-top: 20px;
+    }
+    #verifyotp {
+      display: none; }
+    
+  </style>
+</head>
+<body>
+  <div class="newpass">
+    <h2>Login</h2>
+    <form id="otp" action="/login" method="POST">
+      <label for="phone">Email:</label>
+      <input type="text" id="phone" name="email" placeholder="Enter your email id" required>
+      <label for="phone">Password:</label>
+      <input type="text" id="phone" name="password" placeholder="Enter your Password" required>
+      <button type="submit">login</button>
+    </form>
+    
+
+
+</html>
